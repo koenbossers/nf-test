@@ -1,4 +1,5 @@
-image: maven:3.9.5-eclipse-temurin-17-focal
+image:
+    file: .gitpod.Dockerfile
 
 tasks:
     - name: Install nextflow
