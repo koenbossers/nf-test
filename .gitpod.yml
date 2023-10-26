@@ -1,1 +1,8 @@
 image: maven:3.9.5-eclipse-temurin-17-focal
+
+tasks:
+    - name: Install nextflow
+      init: |
+          wget -qO- https://get.nextflow.io | bash
+          cp nextflow /usr/local/bin
+      command: bash
