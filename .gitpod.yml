@@ -8,4 +8,4 @@ tasks:
           cd ~
           wget -qO- https://get.nextflow.io | bash
           sudo cp nextflow /usr/local/bin
-      command: bash
+          sudo chmod +rx /usr/local/bin/nextflow
